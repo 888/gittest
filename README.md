@@ -1,7 +1,7 @@
 Design Information
 ==========
 
-`1.When starting the application, a user may choose to either create a new player or log in.  For simplicity, authentication is optional.  A (unique) username will be sufficient for logging in.` .
+`1.When starting the application, a user may choose to either create a new player or log in.  For simplicity, authentication is optional.  A (unique) username will be sufficient for logging in.` .   
 To realize this requirement, the class “GameEntrance” was added.
 Following operations were added to the class:
 addPlayer(): this will create a new player
