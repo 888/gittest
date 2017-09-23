@@ -21,13 +21,12 @@ showPlayerStatistics(): this will show player’s statistics
 Local database was not shown since it does not affect the class design directly.    
 
 `4.Word scrambles and statistics will be shared with other instances of the application.  An external web service utility will be used by the application to communicate with a central server to:    
-a.	Add a player and ensure that their username is unique.    
-b.	Send new word scrambles and receive a unique identifier for them.    
-c.	Retrieve the list of scrambles, together with information on which player created each of them.    
-d.	Report a solved scramble.    
-e.	Retrieve the list of players and the scrambles each have solved.    
-You should represent this utility as a utility class that (1) is called "ExternalWebService", (2) is connected to the classes in the system that use it, and (3) explicitly list relevant methods used by those classes.  This class is provided by the system, so it should only contain what is specified here. You do not need to include any aspect of the server in your design besides this utility class.`  
-    
+a.	Add a player and ensure that their username is unique.       
+b.	Send new word scrambles and receive a unique identifier for them.       
+c.	Retrieve the list of scrambles, together with information on which player created each of them.      
+d.	Report a solved scramble.     
+e.	Retrieve the list of players and the scrambles each have solved.     
+You should represent this utility as a utility class that (1) is called "ExternalWebService", (2) is connected to the classes in the system that use it, and (3) explicitly list relevant methods used by those classes.  This class is provided by the system, so it should only contain what is specified here. You do not need to include any aspect of the server in your design besides this utility class.`    
 To realize this requirement, the utility class was represented as “<<utility>>ExternalWebService” class in the diagram.    
 Following operations were added to the class:    
 isPlayerUsernameUnique(): this will check if the desired username is unique in the system.    
