@@ -1,21 +1,21 @@
 Design Information
 ==========
 
-`1.When starting the application, a user may choose to either create a new player or log in.  For simplicity, authentication is optional.  A (unique) username will be sufficient for logging in.` .   
-To realize this requirement, the class “GameEntrance” was added.
-Following operations were added to the class:
-addPlayer(): this will create a new player
-loginPlayer(): this will login to an existing player
-From here, user may choose to create a new player or to login to an existing player.
-No password authentication mechanism was designed.
+`1.When starting the application, a user may choose to either create a new player or log in.  For simplicity, authentication is optional.  A (unique) username will be sufficient for logging in.`       
+To realize this requirement, the class “GameEntrance” was added.    
+Following operations were added to the class:    
+addPlayer(): this will create a new player    
+loginPlayer(): this will login to an existing player    
+From here, user may choose to create a new player or to login to an existing player.    
+No password authentication mechanism was designed.    
 
-'2.After logging in, the application shall allow players to  (1) create a word scramble, (2) choose and solve word scrambles, (3) see statistics on their created and solved word scrambles, and (4) view the player statistics.'
-To realize this requirement, the class “Player” was added.
-Following operations were added to the class:
-createScramble(): this will create a new Scramble instance
-chooseScramble(): this will choose a scramble and start a new game
-showScrambleStatistics(): this will show statistics of player’s scrambles
-showPlayerStatistics(): this will show player’s statistics
+`2.After logging in, the application shall allow players to  (1) create a word scramble, (2) choose and solve word scrambles, (3) see statistics on their created and solved word scrambles, and (4) view the player statistics.`    
+To realize this requirement, the class “Player” was added.    
+Following operations were added to the class:    
+createScramble(): this will create a new Scramble instance    
+chooseScramble(): this will choose a scramble and start a new game    
+showScrambleStatistics(): this will show statistics of player’s scrambles    
+showPlayerStatistics(): this will show player’s statistics    
 
 '3.The application shall maintain an underlying database to save persistent information across runs (e.g., word scrambles, player information, statistics).'
 Local database was not shown since it does not affect the class design directly.
